@@ -349,6 +349,39 @@ section .cards .card {
 .contact-form button:hover {
   background: #FFAB5B;
 }
+ul {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      text-align: center;
+  }
+  .content, .image {
+      width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.content {
+  width: 50%;
+  padding: 20px;
+}
+.image {
+  width: 45%;
+}
+.image img {
+  width: 50%;
+  margin-left: 50px;
+  border-radius: 10px;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -368,6 +401,22 @@ section .cards .card {
 }
 
 /* ////////// */
+.introduction{
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.features {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
 
 
 footer {
